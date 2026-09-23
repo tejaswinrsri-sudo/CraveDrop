@@ -10,7 +10,7 @@ CraveDrop is a full-stack food ordering and table reservation application for Ch
 - Checkout with saved or new delivery addresses and cash-on-delivery or online payment status.
 - Clerk authentication with customers.
 - Order history, order details, booking history, and booking cancellation.
-- Admin dashboards for restaurants, menu items, orders, bookings, and users.
+- Dashboards for restaurants, menu items, orders, bookings, and users.
 - MongoDB persistence with Zod request validation and protected Express API routes.
 - Responsive React interface for mobile, tablet, and desktop screens.
 
