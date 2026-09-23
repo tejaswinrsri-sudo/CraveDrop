@@ -254,14 +254,6 @@ npm test
 
 For a manual smoke test, browse restaurants as a guest, select or detect an area, open a menu, add an item to the cart, sign in, complete checkout, verify the order, create and cancel a booking, and confirm that an administrator can access `/admin`.
 
-## Security Notes
-
-- Keep Clerk secrets, MongoDB credentials, webhook secrets, and `.env` files out of version control.
-- Keep authorization checks on the server; frontend route guards are only a user experience layer.
-- Clerk webhook signatures must be verified before processing events.
-- Use HTTPS and production Clerk credentials in deployed environments.
-- Use a least-privilege MongoDB user and restrict Atlas network access.
-
 ## License
 
 No license has been declared yet. Add a license before distributing the project publicly.
